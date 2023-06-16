@@ -9,7 +9,7 @@
           "foreground": "#fff",
           "style": "diamond",
           "leading_diamond": "\u256d\u2500\ue0b6",
-          "template": "\u26a1",
+          "template": "\uf120",
           "type": "session"
         },
         {
