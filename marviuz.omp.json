@@ -5,16 +5,16 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#FFBD00",
-          "foreground": "#000",
+          "background": "#000",
+          "foreground": "#fff",
           "style": "diamond",
           "leading_diamond": "\u256d\u2500\ue0b6",
           "template": "\u26a1",
           "type": "session"
         },
         {
-          "background": "#00C6F7",
-          "foreground": "#000",
+          "background": "#1c1c1c",
+          "foreground": "#fff",
           "properties": {
             "style": "folder"
           },
@@ -24,8 +24,8 @@
           "type": "path"
         },
         {
-          "background": "#F62F2E",
-          "foreground": "#000",
+          "background": "#151e2a",
+          "foreground": "#fff",
           "properties": {
             "fetch_status": true
           },
@@ -35,8 +35,8 @@
           "type": "git"
         },
         {
-          "background": "#98C379",
-          "foreground": "#000",
+          "background": "#000",
+          "foreground": "#fff",
           "properties": {
             "fetch_version": true
           },
@@ -49,35 +49,11 @@
       "type": "prompt"
     },
     {
-      "alignment": "right",
-      "segments": [
-        {
-          "foreground": "#85C980",
-          "style": "diamond",
-          "template": "RAM:{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB ",
-          "trailing_diamond": " ",
-          "type": "sysinfo"
-        },
-        {
-          "foreground": "#ffffff",
-          "leading_diamond": "\u250b",
-          "properties": {
-            "style": "roundrock",
-            "threshold": 0
-          },
-          "style": "diamond",
-          "template": " {{ .FormattedMs }} ",
-          "type": "executiontime"
-        }
-      ],
-      "type": "prompt"
-    },
-    {
       "alignment": "left",
       "newline": true,
       "segments": [
         {
-          "foreground": "#FFBD00",
+          "foreground": "#000",
           "style": "plain",
           "template": "\u2570\u2b9e",
           "type": "text"
